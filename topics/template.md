@@ -1,7 +1,11 @@
-# Explanation
+## Explanation
 
-# Psuedo code
+## When to use?
 
-# Notes
+## Approach
 
-# Sample Leet code problems
+## Notes
+
+## Sample Leet code problems
+
+## Psuedo code
