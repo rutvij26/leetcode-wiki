@@ -1,0 +1,23 @@
+# Ignore the default Jekyll build directory
+_site/
+
+# Ignore Ruby-specific files
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+
+# Ignore dependency directories for Bundler
+Gemfile.lock
+*.swp
+
+# Ignore the .jekyll-metadata file
+.jekyll-metadata
+
+# Ignore logs
+log/
+
+# Ignore temporary files created by editors
+*.swp
+*.swo
+*~

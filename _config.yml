@@ -1,0 +1,21 @@
+title: "LeetCode Wiki"
+description: "My Notes on solving LeetCode problems"
+markdown: kramdown
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+url: "https://rutvij26.github.io"
+baseurl: "/leetcode-wiki"
+
+just_the_docs:
+  color_scheme: dark
+  navigation_structure:
+    - title: "Home"
+      url: "/index.html"
+    - title: "Getting Started"
+      url: "/getting-started.html"
+    - title: "Topics"
+      children:
+        - title: "Topic 1"
+          url: "/topics/topic1/index.html"
