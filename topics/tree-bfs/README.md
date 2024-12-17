@@ -45,4 +45,55 @@ BFS is often used in problems where:
 
 ## Sample Leet code problems
 
+1. [Leetcode 199](https://leetcode.com/problems/binary-tree-right-side-view/description/)
+
 ## Code Samples
+
+```typescript
+/**
+ * Function that returns all the right side nodes for Leetcode 199
+ */
+function rightSideView(root: TreeNode | null): number[] {
+  // checking if root node is present
+  if (!root) return [];
+
+  // null is our sentinal node, which marks as end of a level
+  const queue = [root, null];
+
+  // array to store right node values
+  const rightSide = [];
+
+  // initializing curr as root
+  let curr = root;
+
+  // untill queue has something
+  while (queue.length > 0) {
+    let prev: TreeNode | null = curr;
+
+    // assigns the first element of queue
+    curr = queue.shift()!;
+
+    // untill curr is not null
+    while (curr) {
+      // add child nodes in the queue
+      if (curr.left) queue.push(curr.left);
+      if (curr.right) queue.push(curr.right);
+
+      // set the prev as curr
+      prev = curr;
+      // set the next element in queue as curr
+      curr = queue.shift()!;
+    }
+
+    // when the while loop exits cause of sentinal node 'null', we push the previous value to return array
+    rightSide.push(prev!.val);
+
+    // if queue is empty push null to stop the while loop
+    if (queue.length > 0) {
+      queue.push(null);
+    }
+  }
+  // return the right side elements
+  return rightSide;
+}
+```
