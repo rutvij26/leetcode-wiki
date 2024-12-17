@@ -1,3 +1,7 @@
+---
+title: "Two Pointers"
+---
+
 ## Explanation
 
 - Two pointers just the way it sounds uses `two pointers/variables` keeps track of array or string indices
