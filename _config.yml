@@ -10,6 +10,14 @@ baseurl: "/leetcode-wiki"
 color_scheme: dark
 
 search_enabled: true
+# Navigation menu
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Topics"
+    children:
+    
+
 
 search:
   # Split pages into sections that can be searched individually
