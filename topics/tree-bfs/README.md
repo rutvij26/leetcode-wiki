@@ -46,6 +46,7 @@ BFS is often used in problems where:
 ## Sample Leet code problems
 
 1. [Leetcode 199](https://leetcode.com/problems/binary-tree-right-side-view/description/)
+2. [Leetcode 1161](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree)
 
 ## Code Samples
 
@@ -95,5 +96,40 @@ function rightSideView(root: TreeNode | null): number[] {
   }
   // return the right side elements
   return rightSide;
+}
+```
+
+```typescript
+/**
+ * Function that finds the max Level Sum Leetcode 1161
+ * */
+function maxLevelSum(root: TreeNode | null): number {
+  const queue = [root, null];
+  const sumArr = [];
+
+  let curr = root;
+
+  while (queue.length > 0) {
+    let sum = 0;
+    curr = queue.shift();
+
+    while (curr) {
+      if (curr.left) queue.push(curr.left);
+      if (curr.right) queue.push(curr.right);
+      sum += curr.val;
+      curr = queue.shift();
+    }
+
+    sumArr.push(sum);
+    sum = 0;
+
+    if (queue.length > 0) {
+      queue.push(null);
+    }
+  }
+
+  const sortedNumbers = [...sumArr].sort((a, b) => a - b);
+  const maxIndex = sumArr.indexOf(sortedNumbers[sortedNumbers.length - 1]);
+  return maxIndex + 1;
 }
 ```
