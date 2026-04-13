@@ -1,3 +1,8 @@
+---
+title: Getting Started
+nav_order: 2
+---
+
 # Getting Started
 
 Welcome to the **Getting Started** guide for the LeetCode Wiki! This page will help you understand how to navigate and make the most of this resource. Whether you're a beginner or an experienced problem-solver, this guide will set you on the right path.

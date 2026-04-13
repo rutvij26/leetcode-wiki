@@ -1,5 +1,7 @@
 ---
 title: "Two Pointers"
+parent: Topics
+nav_order: 2
 ---
 
 ## Explanation

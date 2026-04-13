@@ -1,3 +1,10 @@
+---
+title: Topics
+nav_order: 3
+has_children: true
+permalink: /topics
+---
+
 # Topics
 
 This is a list of important topics in LeetCode, along with their difficulty to learn and the expected return on investment (ROI) for technical interviews.

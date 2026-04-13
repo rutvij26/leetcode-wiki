@@ -1,5 +1,7 @@
 ---
 title: "Recursion"
+parent: Topics
+nav_order: 6
 ---
 
 ## ELI5 (Explain Like I'm 5)

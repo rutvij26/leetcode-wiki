@@ -1,5 +1,7 @@
 ---
 title: "Sliding Window"
+parent: Topics
+nav_order: 3
 ---
 
 ## ELI5 (Explain Like I'm 5)

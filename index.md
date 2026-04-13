@@ -1,3 +1,8 @@
+---
+title: Home
+nav_order: 1
+---
+
 # Home
 
 Welcome to the **LeetCode Wiki**, a comprehensive resource for learning and solving LeetCode problems. This repository organizes knowledge, algorithms, and problem-solving techniques to help you master coding interviews and algorithm challenges.

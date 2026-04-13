@@ -1,5 +1,7 @@
 ---
 title: "Graph BFS / DFS on Grids"
+parent: Topics
+nav_order: 11
 ---
 
 ## ELI5 (Explain Like I'm 5)

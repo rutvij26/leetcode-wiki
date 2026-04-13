@@ -1,5 +1,7 @@
 ---
 title: "HashMap"
+parent: Topics
+nav_order: 1
 ---
 
 ## ELI5 (Explain Like I'm 5)

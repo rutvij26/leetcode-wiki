@@ -1,5 +1,7 @@
 ---
 title: "Greedy"
+parent: Topics
+nav_order: 12
 ---
 
 ## ELI5 (Explain Like I'm 5)

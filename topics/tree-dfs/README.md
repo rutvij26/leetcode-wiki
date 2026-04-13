@@ -1,5 +1,7 @@
 ---
 title: "Tree DFS"
+parent: Topics
+nav_order: 7
 ---
 
 ## ELI5 (Explain Like I'm 5)

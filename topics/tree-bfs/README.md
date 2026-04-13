@@ -1,5 +1,7 @@
 ---
 title: "Tree BFS"
+parent: Topics
+nav_order: 8
 ---
 
 ## Explanation

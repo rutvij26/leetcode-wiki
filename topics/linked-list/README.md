@@ -1,5 +1,7 @@
 ---
 title: "Linked List"
+parent: Topics
+nav_order: 5
 ---
 
 ## ELI5 (Explain Like I'm 5)
