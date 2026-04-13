@@ -48,6 +48,25 @@ BFS is often used in problems where:
 1. [Leetcode 199](https://leetcode.com/problems/binary-tree-right-side-view/description/)
 2. [Leetcode 1161](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree)
 
+## ELI5 (Explain Like I'm 5)
+
+Imagine you're searching for your friend in a building. BFS means you check every room on floor 1 first, then every room on floor 2, then floor 3 — you never go deeper before finishing the current floor. This guarantees you find your friend in the fewest floors possible.
+
+## How to Master This
+
+### Step-by-step
+1. Read this page and understand the sentinel-null technique used here (or use a level-size counter as an alternative)
+2. Watch the NeetCode video on Binary Tree Level Order Traversal
+3. Solve #199 (right side view) — one value per level
+4. Solve #1161 (max level sum) — aggregate per level
+5. Understand when to use BFS vs DFS: if the problem mentions "level", "shortest path", or "closest" → BFS
+
+### Key Resources
+- 📹 [NeetCode — Binary Tree Level Order Traversal](https://www.youtube.com/watch?v=6ZnyEApgFYg)
+- 📹 [NeetCode — Binary Tree Right Side View](https://www.youtube.com/watch?v=d4zLyf32e3I)
+- 📝 [NeetCode.io — Trees problems](https://neetcode.io/roadmap) (see "Trees" section)
+- 🔁 Drill in this order: [Leetcode 199](https://leetcode.com/problems/binary-tree-right-side-view/description/) → [Leetcode 1161](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) → [#102 Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)
+
 ## Code Samples
 
 ```typescript

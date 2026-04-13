@@ -42,6 +42,25 @@ title: "Two Pointers"
 - [#392 Is Subsequence (Approach #3)](https://leetcode.com/problems/is-subsequence)
 - [#86 Partition List (Approach #4)](https://leetcode.com/problems/partition-list)
 
+## ELI5 (Explain Like I'm 5)
+
+Imagine you and a friend are both looking for each other in a long hallway — you start from opposite ends and walk toward each other. Instead of one person walking the whole hallway twice, you both move at the same time and meet in the middle. Two pointers work the same way: start from both ends and close in.
+
+## How to Master This
+
+### Step-by-step
+1. Read this page and understand the two main modes: opposite ends (sorted array) vs same direction (fast/slow)
+2. Watch the NeetCode video on Valid Palindrome — the simplest opposite-ends example
+3. Solve #125 and #167 back to back (both use opposite-end pointers)
+4. Solve #141 (fast/slow pointers for cycle detection)
+5. Write the two-pointer template from memory — it's just a `while (left < right)` loop
+
+### Key Resources
+- 📹 [NeetCode — Valid Palindrome](https://www.youtube.com/watch?v=jJXJ16kPFWg)
+- 📹 [NeetCode — Linked List Cycle](https://www.youtube.com/watch?v=gBTe7lFR3vc)
+- 📝 [NeetCode.io — Two Pointers problems](https://neetcode.io/roadmap) (see "Two Pointers" section)
+- 🔁 Drill in this order: [#125](https://leetcode.com/problems/valid-palindrome) → [#167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) → [#15](https://leetcode.com/problems/3sum) → [#11](https://leetcode.com/problems/container-with-most-water)
+
 ## Code Samples
 
 1. Two Sum ( Approach #1 )
