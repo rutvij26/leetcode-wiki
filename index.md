@@ -14,6 +14,9 @@ Welcome to the **LeetCode Wiki**, a comprehensive resource for learning and solv
 - 📂 **Organized Topics**: Explore problems categorized by data structures, algorithms, and difficulty in the [topics/](./topics/) directory.
 - 📚 **Curated Lists**: Focus your practice with curated LeetCode lists like [Top 150](https://leetcode.com/studyplan/top-interview-150/) and [LeetCode 75](https://leetcode.com/studyplan/leetcode-75/).
 - ✍️ **Explanations**: Detailed breakdowns of solutions with time and space complexity analysis.
+- ⚡ **Patterns Cheat Sheet**: Instantly map problem keywords to the right algorithm.
+- 🗺️ **Difficulty Progression**: A structured week-by-week learning path from beginner to interview-ready.
+- 🎯 **Interview Strategy**: Framework for handling any problem, including ones you've never seen.
 
 ---
 
@@ -29,9 +32,11 @@ Welcome to the **LeetCode Wiki**, a comprehensive resource for learning and solv
 
 To start using this repository:
 
-1. Browse the [Getting Started guide](./getting-started.md) for tips on navigating the wiki.
-2. Dive into the [topics/](./topics/) folder for detailed problem explanations.
-3. Track your progress with curated lists:
+1. Check the [Difficulty Progression](./difficulty-progression.md) guide — it tells you exactly what order to study topics.
+2. Use the [Patterns Cheat Sheet](./patterns-cheatsheet.md) when you're stuck on which technique to apply.
+3. Read [Interview Strategy](./interview-strategy.md) before your first mock interview.
+4. Dive into the [topics/](./topics/) folder for detailed pattern guides with problem tables.
+5. Track your progress with curated lists:
    - [Top 150](https://leetcode.com/studyplan/top-interview-150/)
    - [LeetCode 75](https://leetcode.com/studyplan/leetcode-75/)
 
